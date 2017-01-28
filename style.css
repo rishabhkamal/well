@@ -61,34 +61,36 @@ Chat Page
 */
 
 .member-area{
-  color: black;
+  color: darkgreen;
   font-size: 15px;
 position: fixed;
 top:0;
 bottom: 0;
 left: 0;
 width: 30%;
-background-color: navy;
+background-color: lightgreen;
+background: lightgreen;
 }
 
 .message-area{
-  color: blue;
+  color: yellow;
   position: fixed;
   left: 30%;
   bottom: 0;
   width: 70%;
   top: 0;
-  background-color: pink;
+  background-color: red;
 }
 
 .user-info{
-  background: white;
+  background: ligthgreen;
   padding: 5px;
+  border-bottom:
 }
 
 .member{
   font-size: 20px;
-  color: white;
+  color: darkgreen;
   padding: 10px;
   border-bottom: solid 1px white;
   cursor: pointer;
@@ -106,12 +108,13 @@ background-color: navy;
 
 
 .member.active{
-  background-color: red;
+  background-color:orange;
   font-size: 20px;
   color: blue;
   font-weight: bold;
   border: none;
   margin-bottom: 10px;
+  color: green;
 }
 
 .messages{
@@ -120,11 +123,13 @@ background-color: navy;
 }
 
 .message{
-background-color: white;
+
+background-color: darkblue;
 padding: 10px;
   font-size: 20px;
   margin-bottom: 10px;
   border-radius: 10px;
+break-after: auto;
 }
 
 .message.by.user{
@@ -139,7 +144,7 @@ padding: 10px;
   left: 30%;
   bottom: 0;
   width: 70%;
-  background: white;
+  background: pink;
   padding: 20px;
 }
 
