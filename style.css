@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+*, *:before, *:after {          /* For all boxes ,box moves along with the text.*/
+    box-sizing: inherit;
+}
+
+body.homepage{
+  background-size: cover;
+  background-image: url("https://goo.gl/tSVf4j");
+  background-repeat: no-repeat;
+}
+
+.main{
+  width: 500px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tagline{
+  font-size: 20px;
+  color: white;
+}
+
+.logo{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.button{
+  cursor: pointer;                /* Padding moves ALONE the box or text */
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;            /* Box height and width extended to these values */
+}
+
+.button:hover{
+  background: white;
+  color: blue;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/*
+Chat Page
+*/
+
+.member-area{
+  color: black;
+  font-size: 15px;
+position: fixed;
+top:0;
+bottom: 0;
+left: 0;
+width: 30%;
+background-color: navy;
+}
+
+.message-area{
+  color: blue;
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  width: 70%;
+  top: 0;
+  background-color: pink;
+}
+
+.user-info{
+  background: white;
+  padding: 5px;
+}
+
+.member{
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border-bottom: solid 1px white;
+  cursor: pointer;
+}
+
+.member:hover{
+  background: white;
+  color: darkblue;
+}
+
+.logout{
+  float: right;
+}
+
+
+
+.member.active{
+  background-color: red;
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.messages{
+  height: 80%;
+  overflow: auto;
+}
+
+.message{
+background-color: white;
+padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.message.by.user{
+ background: grey;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.chat-form{
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  width: 70%;
+  background: white;
+  padding: 20px;
+}
+
+.chat-message{
+  padding: 10px;
+  border: solid 1px lightgray;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
